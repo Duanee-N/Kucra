@@ -1,0 +1,276 @@
+/* ***************GENERAL*************** */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main>section {
+    height: 100vh;
+}
+
+/* ***************HEADER*************** */
+header{
+    background-image:radial-gradient(rgb(139,195,245), #1294b8);
+}
+
+/* ***************HEADER NAV*************** */
+#navbar{ /*Section class navbar*/
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    top: 30px;
+    margin-bottom: 180px;
+    font-size: 17px;
+}
+
+#navbar a:hover{
+    color:#F5F5F5;
+}
+
+nav{ /*Menu navbar*/
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#kucra{ /*Kucra navbar*/
+    position: relative;
+    color: white;
+    font-size: 30px;
+}
+
+.menu{
+    display: flex;
+    position: relative;
+    top: 7px;
+    gap: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+#socials{ 
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+}
+
+.fa-brands{ /*Icônes réseaux*/
+    color: white;
+}
+
+.fa-brands:hover{
+    color:#F5F5F5;
+}
+
+/* ***************HEADER BANNER*************** */
+#banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    height: 100vh;
+}
+
+#left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+h2{ /*We are StartUp Creative Kucra Agency*/
+    color: #303030;
+    font-size: 70px;
+    width: 520px;
+}
+
+#txtbanner{
+    color: #303030;
+    font-size: 25px;
+    width: 520px;
+    line-height: 35px;
+}
+
+#imgbanner{
+    width: 700px;
+}
+
+form{
+    position: relative;
+}
+
+#input{
+    height: 50px;
+    width: 520px;
+    border-radius: 30px;
+    border: 0;
+    position: absolute;
+}
+
+::placeholder{
+    position: relative;
+    left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: lightgrey;
+}
+
+#button{ /* Bouton Suscribe */
+    background-color: #1294b8;
+    color: white;
+    width: 130px;
+    height: 40px;
+    top: 5px;
+    right:6px;
+    border: 0;
+    border-radius: 30px;
+    position: absolute;
+}
+
+#button:hover{
+    /* filter:brightness(300%); */
+    background-color: #8BC3F5;
+}
+
+/* ***************MAIN*************** */
+h3{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 20px 0;
+    text-align: center;
+}
+
+h4{
+    font-size: 30px;
+}
+
+.txtmain{
+    font-size: 22px;
+    color: dimgray;
+    margin-bottom: 50px;
+    width: 720px;
+    text-align: center;
+}
+
+/* ***************SECTION 1*************** */
+.card{
+    background-image:radial-gradient(rgb(139,195,245), #1294b8);
+    border-radius: 15px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 400px;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    color: white;
+    transition: all 0.3s;
+} 
+  
+.card:hover {
+    transform: translateY(-25px); /*Déplacement vertical*/
+}
+
+.fa-solid {
+    font-size: 70px;
+}
+
+#ProductsF{
+    display: flex;
+    gap: 30px;
+    text-align: center;
+}
+
+.txtcard{
+    font-size: 20px;
+    width: 80%;
+}
+
+/* ***************SECTION 2*************** */
+#HowItWorks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    background-color: #F5F5F5;
+}
+
+/* ***************SECTION 3*************** */
+
+#Dynamic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+#h3Dynamic{
+    width: 600px;
+}
+
+#espace{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#nb, #imgx4{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+#nb>div{
+    font-size: 17px;
+    width: 300px;
+    text-align: center;
+}
+
+.imganimation>figure{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgperson{
+    border-radius: 100%;
+    width: 250px;
+    filter: grayscale(100%);
+}
+
+figure{
+    display: flex;
+    gap: 15px;
+}
+
+figcaption{
+    text-align: center;
+}
+
+.txt1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.txt2{
+    font-size: 17px;
+}
