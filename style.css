@@ -243,6 +243,11 @@ h4{
     text-align: center;
 }
 
+.txtnb{
+    font-size: 22px;
+    color: dimgray; 
+}
+
 .imganimation>figure{
     position: relative;
     width: 300px;
@@ -284,10 +289,13 @@ figcaption{
 }
 
 .txt1{
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
 }
 
 .txt2{
-    font-size: 17px;
+    font-size: 19px;
+    color: dimgray;
 }
+
+/* ***************SECTION 4*************** */
