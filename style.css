@@ -244,10 +244,18 @@ h4{
 }
 
 .imganimation>figure{
+    position: relative;
     width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.imgsocials{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .imgicons{
@@ -259,6 +267,11 @@ h4{
     border-radius: 100%;
     width: 250px;
     filter: grayscale(100%);
+}
+
+.imgperson:hover{
+    filter: none;
+    transition: all .2s;
 }
 
 figure{
