@@ -168,6 +168,11 @@ h4{
     text-align: center;
 }
 
+.greycolor{
+    height: 100vh;
+    background-color: #F5F5F5;
+}
+
 /* ***************SECTION 1*************** */
 .card{
     background-image:radial-gradient(rgb(139,195,245), #1294b8);
@@ -209,8 +214,6 @@ h4{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
-    background-color: #F5F5F5;
 }
 
 /* ***************SECTION 3*************** */
@@ -299,3 +302,15 @@ figcaption{
 }
 
 /* ***************SECTION 4*************** */
+#start{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ***************SECTION 5*************** */
+#clients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
