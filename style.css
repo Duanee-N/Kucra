@@ -28,7 +28,7 @@ header{
     display: flex;
     justify-content: space-around;
     top: 30px;
-    margin-bottom: 180px;
+    margin-bottom: 5vh;
     font-size: 17px;
 }
 
@@ -169,7 +169,7 @@ h4{
 }
 
 .greycolor{
-    width: 100vw;
+    width: 99vw;
     height: 100vh;
     background-color: #F5F5F5;
 }
@@ -237,7 +237,7 @@ h4{
 #nb, #imgx4{
     display: flex;
     justify-content: center;
-    gap: 200px;
+    gap: 5vw;
 }
 
 #nb>div{
@@ -263,7 +263,7 @@ h4{
     position: relative;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
 }
 
 .imgicons{
@@ -273,7 +273,7 @@ h4{
 
 .imgperson{
     border-radius: 100%;
-    width: 250px;
+    width: 200px;
     filter: grayscale(100%);
 }
 
@@ -313,6 +313,26 @@ figcaption{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.imgclients{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5vw;
+    top: 8vh;
+}
+
+.imgclient{
+    width: 8vw;
+    color: black;
+    filter: contrast(5%) brightness(100%);
+}
+
+
+.imgclient:hover{
+    filter: contrast(100%) brightness(0%);
 }
 
 /* ***************SECTION 6 : CREATIVE LANDING PAGE *************** */
@@ -360,7 +380,61 @@ figcaption{
 #imgcreative{
     position: relative;
     top: 30px;
-    height: 620px;
+    height: 525px;
 }
 
 /* ***************SECTION 7 : OUR BLOG *************** */
+#ourblog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog{
+    display: flex;
+    flex-direction: row;
+}
+
+.blog>figure{
+    display: flex;
+    flex-direction: column;
+}
+
+.imgbloganimation{
+    width: 9vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 20px;
+}
+
+.blogicons{
+    display: flex;
+    flex-direction: row;
+}
+
+.imgblog{
+    border-radius: 5px;
+    width: 19vw;
+}
+
+.imgblog:hover{
+    filter: brightness(70%);
+}
+
+.txtblog1{
+    font-size: 20px;
+    text-align: left;
+}
+
+.txtblog2{
+    font-size: 16px;
+    text-align: left;
+    width: 17vw;
+}
+
+.read>a{
+    font-size: 18px;
+    color: #1294b8;
+    font-weight: bold;
+}
