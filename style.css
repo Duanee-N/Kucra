@@ -239,10 +239,16 @@ h4{
     gap: 50px;
 }
 
-#nb, #imgx4{
+#nb{
     display: flex;
     justify-content: center;
     gap: 5vw;
+}
+
+#imgx4{
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
 }
 
 #nb>div{
@@ -258,10 +264,11 @@ h4{
 
 .imganimation>figure{
     position: relative;
-    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 100%;
+    width: 200px;
     overflow: hidden;
 }
 
@@ -270,20 +277,27 @@ h4{
     color: black;
     background-color: white;
     border-radius: 100%;
-    font-size: 20px;
+    padding: 5px;
+    width: 26px;
+    font-size: 17px;
     left: -60px;
+    text-align: center;
 }
 
 a>.fa-facebook-f{
-    top: -120px;
+    top: -35px;
+    transition: all .7s;
 }
 
 a>.fa-twitter{
-    top: -80px;
+    top: 0px;
+    transition: all .7s;
 }
 
 a>.fa-skype{
-    top: -40px;
+    font-size: 18px;
+    top: 35px;
+    transition: all .7s;
 }
 
 .imgperson{
@@ -297,23 +311,25 @@ a>.fa-skype{
     transition: all .2s;
 }
 
-figure{
-    display: flex;
-    gap: 10px;
+#imgpersonanimation:hover>a>.imgicons{
+    transform: translate(79px, 85px);
 }
 
-figcaption{
-    text-align: center;
-}
 
 .txtimg1{
+    position: relative;
     font-size: 22px;
     font-weight: bold;
+    text-align: center;
+    top: 20px;
 }
 
 .txtimg2{
+    position: relative;
     font-size: 19px;
     color: dimgray;
+    text-align: center;
+    top: 20px;
 }
 
 /* ***************SECTION 4 : STARTED *************** */
