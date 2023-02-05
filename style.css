@@ -311,10 +311,9 @@ a>.fa-skype{
     transition: all .2s;
 }
 
-#imgpersonanimation:hover>a>.imgicons{
+.imgpersonanimation:hover>a>.imgicons{
     transform: translate(79px, 85px);
 }
-
 
 .txtimg1{
     position: relative;
@@ -618,18 +617,40 @@ h5{
     gap: 50px;
 }
 
-.blogicons, .blogicons2{
-    color: white;
-    position: absolute;
-    top: 100px;
+.bloganimation>figure{
+    position: relative;
+    height: 410px;
+    /* overflow: hidden; */
+}
+
+.figblog:hover{
+    z-index: 0;
+    filter: brightness(70%);
+}
+
+.figblog:hover>.blogicons{
+    z-index: 1;
+    top: 50px;
     left: 50px;
+}
+
+.figblog:hover>.blogicons2{
+    filter: none;
+    z-index: 1;
+    top: 80px;
+    left: 50px;
+}
+
+.blogicons, .blogicons2{
+    position: absolute;
+    color: white;
     display: flex;
     flex-direction: row;
     align-items: center;
-    z-index: 0;
 }
 
 .blogicons{
+    top: -80px;
     font-size: 20px;
 }
 
@@ -638,23 +659,18 @@ h5{
 }
 
 .blogicons2{
-    font-size: 17px;
+    top: -50px;
+    font-size: 18px;
 }
 
 .fa-user, .fa-clock{
     position: relative;
     left: -5px;
-}
+} 
 
 .imgblog{
     border-radius: 5px;
     width: 23vw;
-    z-index: 8;
-}
-
-.imgblog:hover{
-    z-index: -1;
-    filter: brightness(70%);
 }
 
 .figtxt{
