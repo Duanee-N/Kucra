@@ -270,6 +270,7 @@ h4{
     align-items: center;
     border-radius: 100%;
     width: 200px;
+    height: 200px;
     overflow: hidden;
 }
 
@@ -283,6 +284,13 @@ h4{
     font-size: 17px;
     left: -60px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.imgicons:hover{
+    color: black;
+    background-color: white;
 }
 
 a>.fa-facebook-f{
@@ -304,15 +312,22 @@ a>.fa-skype{
 .imgperson{
     border-radius: 100%;
     width: 200px;
+    height: 200px;
+}
+
+.figperson{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
     filter: grayscale(100%);
     transition: all .2s;
 }
 
-.imgperson:hover{
+.figperson:hover{
     filter: none;
 }
 
-.imgpersonanimation:hover>a>.imgicons{
+.figperson:hover>a>.imgicons{
     transform: translate(79px, 85px);
 }
 
