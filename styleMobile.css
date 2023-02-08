@@ -1,4 +1,4 @@
-@media only screen and (max-device-width: 600px) and (orientation: portrait){
+@media only screen and (max-device-height: 600px) and (orientation: portrait){
 
 /* ***************HEADER NAV*************** */
 #navbar{
@@ -18,13 +18,13 @@
 
 /* ***************HEADER BANNER*************** */
 #banner{
-    height: 65vh;
+    height: 70vh;
     flex-direction: column-reverse;
     gap: 60px;
 }
 
 #imgbanner{
-    width: 550px;
+    width: 500px;
 }
 
 /* ***************MAIN*************** */
@@ -57,7 +57,7 @@ h4{
 
 #ProductsF{
     gap: 40px;
-    height: 60vh;
+    height: 70vh;
 }
 
 .cardx3{
@@ -81,7 +81,7 @@ h4{
 
 /* ***************SECTION 3 : DYNAMIC TEAM *************** */
 #Dynamic{
-    height: 62vh;
+    height: 75vh;
 }
 
 #h3Dynamic{
@@ -118,7 +118,7 @@ h4{
 /* ***************SECTION 5 : CLIENTS *************** */
 #clients{
     gap: 20px;
-    height: 18vh;
+    height: 22vh;
 }
 
 #h3clients{
@@ -137,7 +137,7 @@ h4{
 #creative{
     justify-content: center;
     gap: 60px;
-    height: 30vh;
+    height: 35vh;
 }
 
 #creativeh3{
@@ -178,7 +178,7 @@ h4{
 }
 
 #Pricing{
-    height: 101vh;
+    height: 122vh;
     gap: 10px;
 }
 
@@ -205,7 +205,7 @@ h4{
 
 /* ***************SECTION 8 : OUR BLOG *************** */
 #ourblog{
-    height: 67vh;
+    height: 80vh;
     gap: 20px;
 }
 
@@ -242,6 +242,269 @@ h4{
 /* ***************FOOTER*************** */
 footer{
     height: 15vh;
+}
+
+.fa-arrow-up{
+    width: 60px;
+}
+
+}
+
+
+
+
+@media only screen and (max-device-width: 600px) and (orientation: landscape){
+/* ***************HEADER NAV*************** */
+#navbar{
+    top: 32px;
+    margin-bottom: 40px;
+}
+
+#kucra{
+    top: 1px;
+    font-size: 23px;
+}
+
+#socials{
+    position: relative;
+    top: 5px;
+    font-size: 17px;
+}
+
+/* ***************HEADER BANNER*************** */
+#banner{
+    height: 95vh;
+    gap: 90px;
+}
+
+#left{
+    width: 40%;
+}
+
+h2{
+    font-size: 30px;
+}
+
+#txtbanner{
+    color: #303030;
+    font-size: 18px;
+    width: 350px;
+}
+
+#imgbanner{
+    width: 350px;
+}
+
+#input{
+    width: 370px;
+}
+
+#button{
+    right: 28px;
+}
+
+/* ***************MAIN*************** */
+.txtmain{
+    margin-bottom: 0px;
+}
+
+h3{
+    margin: 0px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+/* ***************SECTION 1 : PRODUCT FEATURES*************** */
+#h3PF{
+    padding-top: 50px;
+}
+
+.card{
+    width: 250px;
+    height: 250px;
+    gap: 20px;
+}
+
+.fa-solid {
+    font-size: 40px;
+}
+
+#ProductsF{
+    gap: 40px;
+    height: 120vh;
+}
+
+.cardx3{
+    gap: 50px;
+
+}
+
+.txtcard{
+    font-size: 15px;
+}
+
+/* ***************SECTION 3 : DYNAMIC TEAM *************** */
+#Dynamic{
+    height: 270vh;
+}
+
+#h3Dynamic{
+    padding-top: 50px;
+}
+
+.txtdynamic{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#nb{
+    flex-wrap: wrap;
+    gap: 10vw;
+}
+
+#imgx4{
+    flex-wrap: wrap;
+    gap: 20vw;
+}
+
+/* ***************SECTION 4 : STARTED *************** */
+#start{
+    height: 80vh;
+}
+
+#parallax{
+    gap: 20px;
+}
+
+/* ***************SECTION 5 : CLIENTS *************** */
+#clients{
+    gap: 20px;
+    height: 80vh;
+}
+
+#h3clients{
+    padding-top: 50px;
+}
+
+.imgclients{
+    top: 35px;
+}
+
+.imgclient{
+    width: 12vw;
+}
+
+/* ***************SECTION 6 : CREATIVE LANDING PAGE *************** */
+#creative{
+    justify-content: center;
+    gap: 60px;
+    height: 120vh;
+}
+
+#creativeh3{
+    margin-bottom: 20px;
+}
+
+.leftcreative{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+}
+
+.txtcreative{
+    text-align: center;
+    width: 500px;
+}
+
+.nbcreative{
+    gap: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.txtimgcreative{
+    position: relative;
+    top: -5px;
+}
+
+#imgcreative{
+    height: 300px;
+}
+
+/* ***************SECTION 7 : OUR PRICING *************** */
+#h3pricing{
+    padding-top: 50px;
+}
+
+#Pricing{
+    height: 430vh;
+    gap: 10px;
+}
+
+.txtpricing{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+
+.cardposition{
+    height: 200vh;
+    align-content: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.cardprice{
+    height: 620px;
+}
+
+.cardsale{
+    transform: translateY(0px);
+}
+
+/* ***************SECTION 8 : OUR BLOG *************** */
+#ourblog{
+    height: 280vh;
+    gap: 20px;
+}
+
+#h3blog{
+    padding-top: 50px;
+}
+
+.txtmainblog{
+    margin-bottom: 20px;
+}
+
+.blog{
+    flex-direction: column;
+    align-items: center;
+}
+
+.bloganimation>figure{
+    width: 40vw;
+}
+
+.figtxt{
+    align-items: center;
+    gap: 5px;
+}
+
+.imgblog{
+    width: 40vw;
+}
+
+.txtblog2{
+    display: none;
+}
+
+/* ***************FOOTER*************** */
+footer{
+    height: 50vh;
 }
 
 .fa-arrow-up{
