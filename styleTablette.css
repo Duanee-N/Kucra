@@ -6,6 +6,7 @@
 }
 
 #kucra{
+    top: 2px;
     font-size: 23px;
 }
 
@@ -149,6 +150,10 @@ h4{
     top: 35px;
 }
 
+.imgclient{
+    width: 12vw;
+}
+
 /* ***************SECTION 6 : CREATIVE LANDING PAGE *************** */
 #creative{
     justify-content: center;
@@ -220,7 +225,7 @@ h4{
 
 /* ***************SECTION 8 : OUR BLOG *************** */
 #ourblog{
-    height: 105vh;
+    height: 112vh;
     gap: 20px;
 }
 
@@ -243,19 +248,278 @@ h4{
 
 .figtxt{
     align-items: center;
+    gap: 5px;
 }
 
 .imgblog{
     width: 40vw;
 }
 
-.txtblog1, .txtblog2{
+.txtblog2{
     display: none;
 }
 
 /* ***************FOOTER*************** */
 footer{
     height: 20vh;
+}
+
+.fa-arrow-up{
+    width: 60px;
+}
+
+}
+
+
+@media (max-width: 1024px) and (orientation: landscape){
+/* ***************HEADER NAV*************** */
+#navbar{
+    top: 32px;
+    margin-bottom: 5vh;
+}
+
+#kucra{
+    top: 1px;
+    font-size: 23px;
+}
+
+#socials{
+    position: relative;
+    top: 5px;
+    font-size: 17px;
+}
+
+/* ***************HEADER BANNER*************** */
+#banner{
+    height: 90vh;
+    gap: 70px;
+}
+
+#left{
+    width: 40%;
+}
+
+h2{
+    font-size: 50px;
+}
+
+#txtbanner{
+    color: #303030;
+    font-size: 18px;
+    width: 350px;
+}
+
+#imgbanner{
+    width: 450px;
+}
+
+#input{
+    width: 370px;
+}
+
+#button{
+    right: 45px;
+}
+
+/* ***************MAIN*************** */
+.txtmain{
+    margin-bottom: 0px;
+}
+
+h3{
+    margin: 0px;
+    padding-top: 50px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+/* ***************SECTION 1 : PRODUCT FEATURES*************** */
+.card{
+    width: 300px;
+    height: 300px;
+    gap: 20px;
+}
+
+.fa-solid {
+    font-size: 40px;
+}
+
+#ProductsF{
+    height: 75vh;
+}
+
+.cardx3{
+    gap: 20px;
+}
+
+.txtcard{
+    font-size: 15px;
+}
+
+/* ***************SECTION 2 : HOW IT WORKS ? *************** */
+#HowItWorks{
+    height: 50vh;
+}
+
+#h3HowItWorks{
+    padding: 0;
+}
+
+/* ***************SECTION 3 : DYNAMIC TEAM *************** */
+#Dynamic{
+    height: 190vh;
+}
+
+.txtdynamic{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#nb{
+    flex-wrap: wrap;
+    gap: 15vw;
+}
+
+#imgx4{
+    flex-wrap: wrap;
+    gap: 25vw;
+}
+
+.imgperson{
+    width: 180px;
+    height: 180px;
+}
+
+
+/* ***************SECTION 4 : STARTED *************** */
+#start{
+    height: 60vh;
+}
+
+#parallax{
+    gap: 20px;
+}
+
+/* ***************SECTION 5 : CLIENTS *************** */
+#clients{
+    gap: 20px;
+    height: 60vh;
+}
+
+.imgclient{
+    width: 12vw;
+}
+
+/* ***************SECTION 6 : CREATIVE LANDING PAGE *************** */
+#creative{
+    justify-content: center;
+    gap: 60px;
+    height: 90vh;
+}
+
+#creativeh3{
+    margin-bottom: 20px;
+}
+
+.leftcreative{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+}
+
+.txtcreative{
+    text-align: center;
+    width: 500px;
+}
+
+.nbcreative{
+    gap: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.txtimgcreative{
+    position: relative;
+    top: -5px;
+}
+
+#imgcreative{
+    height: 300px;
+}
+
+/* ***************SECTION 7 : OUR PRICING *************** */
+#Pricing{
+    height: 290vh;
+    gap: 10px;
+}
+
+.txtpricing{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+
+.cardposition{
+    height: 150vh;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.cardprice{
+    height: 600px;
+}
+
+.cardsale{
+    transform: translateY(0px);
+}
+
+.bottomcard{
+    font-size: 18px;
+}
+
+/* ***************SECTION 8 : OUR BLOG *************** */
+#ourblog{
+    height: 195vh;
+    gap: 20px;
+}
+
+#h3blog{
+    padding-top: 50px;
+}
+
+.txtmainblog{
+    margin-bottom: 20px;
+}
+
+.blog{
+    flex-direction: column;
+    align-items: center;
+}
+
+.bloganimation>figure{
+    width: 40vw;
+}
+
+.figtxt{
+    gap: 5px;
+    align-items: center;
+}
+
+.imgblog{
+    width: 40vw;
+}
+
+.txtblog2{
+    display: none;
+}
+
+/* ***************FOOTER*************** */
+.fa-arrow-up{
+    width: 60px;
 }
 
 }
